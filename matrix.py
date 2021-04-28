@@ -8,7 +8,7 @@ file = open(file_name, "w")
 newline = "\n"
 for i in range(size):
     for j in range(size):
-        a = np.random.uniform(-5.0, 5.0)
+        a = np.random.uniform(-1000.0, 1000.0)
         s = '%.12f'%a
         file.write(s)
         file.write(" ")
